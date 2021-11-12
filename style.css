@@ -1,0 +1,193 @@
+body {
+  margin: 0%;
+  background-image: url("./valorantlogo.jpg");
+  background-size: 100%;
+  background-color: #cccccc;
+  background-attachment: fixed;
+  font-family: "Montserrat", sans-serif;
+}
+
+.darkBody {
+  background-image: url("./valorantlogo_dark.jpg");
+}
+
+a {
+  color: rgb(245, 170, 255);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  border: solid;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-left: 20px;
+  color: rgb(245, 170, 255);
+}
+
+header {
+  display: flex;
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  width: 50%;
+  background-color: rgb(0, 0, 0);
+  border-bottom-left-radius: 50px;
+}
+
+.headerList {
+  display: flex;
+  flex-direction: row;
+}
+
+.infoDropDownMeny {
+  display: none;
+  flex-direction: column;
+  margin: 5%;
+  margin-top: 0%;
+  margin-left: 0%;
+}
+
+.infoDropDownMenyButton:hover + .infoDropDownMeny {
+  display: flex;
+}
+
+.infoDropDownMeny:hover {
+  display: flex;
+}
+
+.infoDropDownMenyButton {
+  margin: 0%;
+}
+
+.infoDropDownMenyItems {
+  margin: 3%;
+}
+
+footer {
+  display: flex;
+  bottom: 0%;
+  width: 100%;
+  background-color: black;
+  border-top: solid white;
+  border-bottom: solid white;
+}
+
+.socials {
+  display: flex;
+  margin-left: 2%;
+  color: white;
+}
+
+.socialList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.indexContent {
+  display: flex;
+  flex-flow: wrap;
+  margin-top: 7.5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+}
+
+.welcomeText {
+  display: flex;
+  padding-left: 2.5%;
+  width: 40%;
+  font-size: 250%;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  background-color: rgb(88, 88, 88, 0.8);
+  border: solid steelblue;
+}
+
+.indexAd {
+  display: flex;
+  width: 35%;
+  font-size: 750%;
+  margin-right: 10%;
+  padding-left: 7.5%;
+  background-color: yellow;
+}
+
+.agentsContent {
+  display: flex;
+}
+
+.allAgentsImage {
+  display: flex;
+  width: 45%;
+  flex-flow: wrap;
+  justify-content: space-around;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+.agentsImage {
+  width: 20%;
+  border: solid white;
+  margin-bottom: 1%;
+}
+
+.agentsAd {
+  display: flex;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-size: 750%;
+  width: 35%;
+  background-color: yellow;
+}
+
+.storeContent {
+  display: flex;
+  border: solid pink;
+  flex-direction: column;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 5%;
+  margin-right: 45%;
+}
+
+.standardPackage {
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  place-items: center;
+  border: solid springgreen;
+  height: 200%;
+}
+
+.premiumPackage {
+  display: grid;
+  grid-template-columns : 3fr 7fr;
+  place-items: center;
+  direction: rtl;
+  border: solid tomato;
+}
+
+.storeImage {
+  color: white;
+}
+
+.storeP {
+  color: white;
+}
+
+.standardImage {
+  font-size: 250%;
+  background-color: rgb(146, 146, 252);
+  color: black;
+}
