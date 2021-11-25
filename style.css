@@ -21,7 +21,6 @@ a:hover {
 }
 
 p {
-  border: solid;
 }
 
 ul {
@@ -50,18 +49,22 @@ header {
 
 .infoDropDownMeny {
   display: none;
+  background-color: black;
   flex-direction: column;
-  margin: 5%;
-  margin-top: 0%;
+  position: absolute;
+  max-width: min-content;
+  padding: 2%;
+  padding-left: 0%;
   margin-left: 0%;
 }
 
 .infoDropDownMenyButton:hover + .infoDropDownMeny {
-  display: flex;
+  display: block;
+
 }
 
 .infoDropDownMeny:hover {
-  display: flex;
+  display: block;
 }
 
 .infoDropDownMenyButton {
@@ -110,7 +113,7 @@ footer {
   font-family: "Montserrat", sans-serif;
   color: white;
   background-color: rgb(88, 88, 88, 0.8);
-  border: solid steelblue;
+  
 }
 
 .indexAd {
@@ -154,28 +157,29 @@ footer {
 
 .storeContent {
   display: flex;
-  border: solid pink;
-  flex-direction: column;
+  flex-direction: row;
+  margin-right: 15%;
+  margin-left: 10%;
   margin-top: 10%;
   margin-bottom: 10%;
-  margin-left: 5%;
-  margin-right: 45%;
+  gap: 15%;
+}
+
+.storePackageContent {
+  display: flex;
+  flex-direction: column;
 }
 
 .standardPackage {
   display: grid;
   grid-template-columns: 3fr 7fr;
   place-items: center;
-  border: solid springgreen;
-  height: 200%;
 }
 
 .premiumPackage {
   display: grid;
-  grid-template-columns : 3fr 7fr;
+  grid-template-columns: 7fr 3fr;
   place-items: center;
-  direction: rtl;
-  border: solid tomato;
 }
 
 .storeImage {
@@ -187,7 +191,86 @@ footer {
 }
 
 .standardImage {
-  font-size: 250%;
+  font-size: 200%;
+  margin: 5%;
   background-color: rgb(146, 146, 252);
   color: black;
+}
+
+.premiumImage {
+  font-size: 200%;
+  margin: 5%;
+  background-color: rgb(243, 14, 14);
+  color: black;
+}
+
+.proImage {
+  font-size: 200%;
+  margin: 5%;
+  background-color: rgb(0, 255, 0);
+  color: black;
+}
+
+.storeAd {
+  width: 35%;
+  font-size: 750%;
+  background-color: yellow;
+}
+
+.weaponsContent {
+  display: flex;
+  border: solid blue;
+  gap: 1%;
+}
+
+.allWeaponsImage {
+  display: flex;
+  border: solid chartreuse;
+  flex-direction: column;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+.sideArms {
+  display: flex;
+  flex-direction: column;
+}
+
+.smgAndShotguns {
+  display: flex;
+  flex-direction: column;
+}
+
+.rifles {
+  display: flex;
+  flex-direction: column;
+}
+
+.sniperAndLmgs {
+  display: flex;
+  flex-direction: column;
+}
+
+.weaponsImage {
+  height: 90px;
+  border: solid white;
+  margin-bottom: 1%;
+}
+
+.aboutMeContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutMeImg {
+  width: 35%;
+  margin-top: 10%;
+}
+
+.aboutMeText {
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
