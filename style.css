@@ -122,7 +122,7 @@ footer {
   font-size: 750%;
   margin-right: 10%;
   padding-left: 7.5%;
-  background-color: yellow;
+  background-color: rgb(200, 200, 40);
 }
 
 .agentsContent {
@@ -144,6 +144,11 @@ footer {
   width: 20%;
   border: solid white;
   margin-bottom: 1%;
+  padding: 0%;
+}
+
+.agentsImages {
+  width: 100%; 
 }
 
 .agentsAd {
@@ -152,7 +157,8 @@ footer {
   margin-bottom: 10%;
   font-size: 750%;
   width: 35%;
-  background-color: yellow;
+  justify-content: center;
+  background-color: rgb(200, 200, 40);
 }
 
 .storeContent {
@@ -212,49 +218,66 @@ footer {
 }
 
 .storeAd {
-  width: 35%;
   font-size: 750%;
-  background-color: yellow;
+  background-color: rgb(200, 200, 40);
+}
+
+.storeAdText {
+  width: 35%;
 }
 
 .weaponsContent {
   display: flex;
-  border: solid blue;
+  flex-direction: column;
+  margin-top: 5%;
   gap: 1%;
+  align-items: center;
 }
 
 .allWeaponsImage {
   display: flex;
-  border: solid chartreuse;
   flex-direction: column;
   flex-flow: wrap;
   justify-content: space-around;
 }
 
+.weaponsImage {
+  border: solid white;
+  margin-bottom: 1%;
+}
+
+.agentsAdText
+{
+  display: flex;
+  border: solid;
+  justify-content: center;
+  width: 35%;
+  font-size: 750%;
+  background-color: rgb(200, 200, 40); 
+}
+
 .sideArms {
+  width: 13%;
   display: flex;
   flex-direction: column;
 }
 
 .smgAndShotguns {
+  width: 22.5%;
   display: flex;
   flex-direction: column;
 }
 
 .rifles {
+  width: 25%;
   display: flex;
   flex-direction: column;
 }
 
 .sniperAndLmgs {
+  width: 27.5%;
   display: flex;
   flex-direction: column;
-}
-
-.weaponsImage {
-  height: 90px;
-  border: solid white;
-  margin-bottom: 1%;
 }
 
 .aboutMeContent {
