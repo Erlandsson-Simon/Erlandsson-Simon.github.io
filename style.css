@@ -1,6 +1,6 @@
 body {
   margin: 0%;
-  background-image: url("./valorantlogo.jpg");
+  background-image: url("./thumb-1920-1081933.jpg");
   background-size: 100%;
   background-color: #cccccc;
   background-attachment: fixed;
@@ -9,6 +9,14 @@ body {
 
 .darkBody {
   background-image: url("./valorantlogo_dark.jpg");
+}
+
+.aboutMeBody {
+  background-image: url("Chamber_Article_Banner_1920x1080.jpeg");
+}
+
+.storeBody {
+  background-image: url("VALORANT_Viper_Dark-scaled.jpg");
 }
 
 a {
@@ -102,7 +110,7 @@ footer {
   margin-top: 7.5%;
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 20%;
 }
 
 .welcomeText {
@@ -167,7 +175,7 @@ footer {
   margin-right: 15%;
   margin-left: 10%;
   margin-top: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 20%;
   gap: 15%;
 }
 
@@ -193,7 +201,9 @@ footer {
 }
 
 .storeP {
-  color: white;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.712);
+  padding: 1%;
 }
 
 .standardImage {
@@ -211,7 +221,7 @@ footer {
 }
 
 .proImage {
-  font-size: 200%;
+  font-size: 275%;
   margin: 5%;
   background-color: rgb(0, 255, 0);
   color: black;
@@ -282,16 +292,20 @@ footer {
 
 .aboutMeContent {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  margin-bottom: 30%;
 }
 .aboutMeImg {
   width: 35%;
   margin-top: 10%;
+  margin-left: 5%;
+  border-radius: 10%;
 }
 
 .aboutMeText {
   color: white;
+  background-color: rgba(0, 0, 0, 0.514);
+  width: 30%;
   margin-top: 5%;
   margin-bottom: 10%;
   margin-left: 15%;
